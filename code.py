@@ -116,7 +116,7 @@ while True:
     tilt_angle = raw_tilt - calibration_offset
     
     # 3. APPLY DEADZONE (Ignore tilts less than 5 degrees)
-    if abs(tilt_angle) > 5.0:
+    if abs(tilt_angle) > 10.0:
         
         # 4. CAP AT 90 DEGREES MAXIMUM
         tilt_angle = max(-90.0, min(90.0, tilt_angle))
