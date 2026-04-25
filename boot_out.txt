@@ -1,0 +1,4 @@
+Adafruit CircuitPython 10.1.3 on 2026-02-20; Adafruit Feather ESP32S3 4MB Flash 2MB PSRAM with ESP32S3
+Board ID:adafruit_feather_esp32s3_4mbflash_2mbpsram
+UID:0102AB90730D
+MAC:10:20:BA:09:37:D0
