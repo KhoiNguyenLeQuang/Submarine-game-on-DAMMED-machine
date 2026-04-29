@@ -48,12 +48,10 @@ Download the [Adafruit CircuitPython Bundle](https://circuitpython.org/libraries
 Your `CIRCUITPY` drive should look like this:
 ```text
 CIRCUITPY/
-│
-├── lib/
-│   ├── adafruit_icm20x/
-│   ├── adafruit_character_lcd/
-│   ├── motorFunctions.py        # Custom motor driver
-│   └── neoPixelFunctions.py     # Custom LED driver
-│
-├── submarine_engine.py          # 2D Arcade Game Logic & Object Tracking
-└── code.py                      # Main Hardware Loop & Steering Math
+└── lib/
+    ├── asyncio/
+    ├── adafruit_ticks.mpy      <-- ADD THIS
+    ├── adafruit_icm20x/
+    ├── adafruit_character_lcd/
+    ├── motorFunctions.py
+    └── neoPixelFunctions.py
