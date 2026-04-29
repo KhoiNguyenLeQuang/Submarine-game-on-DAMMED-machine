@@ -50,7 +50,7 @@ Your `CIRCUITPY` drive should look like this:
 CIRCUITPY/
 └── lib/
     ├── asyncio/
-    ├── adafruit_ticks.mpy      <-- ADD THIS
+    ├── adafruit_ticks.mpy     
     ├── adafruit_icm20x/
     ├── adafruit_character_lcd/
     ├── motorFunctions.py
